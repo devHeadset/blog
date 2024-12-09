@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+
+body {
+  font-family: "JetBrains Mono", monospace;
+  background-color: #1e1e2e;
+  color: #cdd6f4;
+  text-align: center;
+  font-size: 27px;
+}
+
+ul {
+  list-style-type: none; /* removes default list styling */
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  margin: 10px 0; /* adds vertical spacing between list items */
+}
+
+a {
+  color: #cdd6f4; /* text color for the links */
+  text-decoration: none; /* removes underline from links */
+  font-size: 27px; /* same font size as the body */
+  display: block; /* makes the link take up full width, causing vertical stacking */
+}
+
+a:hover {
+  color: #ff79c6; /* hover effect with a different color */
+}
